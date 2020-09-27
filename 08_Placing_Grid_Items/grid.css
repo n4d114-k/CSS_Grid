@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.fire {
+  background: #BADA55;
+  grid-column: 3 / 6;
+  grid-row: 2 / 5;
+}
