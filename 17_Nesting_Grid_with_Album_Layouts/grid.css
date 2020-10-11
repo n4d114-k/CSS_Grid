@@ -1,0 +1,22 @@
+.albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+.album {
+  color: #d8e6da;
+  font-weight: 100;
+  background: rgba(78,156,78, 0.2);
+  box-shadow: 0 0 5px rgba(149,206,149, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 10px;
+  align-items: center;
+
+}
+
+.album__artwork {
+  width: 100%;
+}
