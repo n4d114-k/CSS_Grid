@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-flow: dense;
+}
+
+.item:nth-child(6n) {
+  background: #3B7575;
+  grid-column: span 6;
+}
+
+.item:nth-child(8n) {
+  background: #C36262;
+  grid-column: span 2;
+}
+
+.item:nth-child(10n) {
+  background: #98B65B;
+  grid-row: span 2;
+}
+
+.item30 {
+  background: #C38E62 !important;
+  grid-column-end: -1 !important;
+}
