@@ -1,0 +1,29 @@
+.controls {
+  /*display: flex;*/
+  display: grid;
+  grid-template-columns: auto auto auto 1fr auto auto;
+  margin: 200px 0;
+  align-items: center;
+}
+.scrubber {
+  background: #BADA55;
+  height: 10px;
+  min-width: 100px;
+  border-radius: 10px;
+  /*flex: 1;*/
+}
+
+button {
+  border: 0;
+  border-radius: 3px;
+  font-family: inherit;
+  background-color: var(--green);
+  padding: 10px;
+  margin: 0px 5px;
+  outline: 0;
+}
+
+button:hover {
+  background: #80CE80;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.corners {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  align-items: end;
+  justify-items: end;
+  height: 200px;
+  width: 200px;
+  border: 5px dotted var(--green);
+
+}
+
+
+.corner:nth-child(1),
+.corner:nth-child(2) {
+  align-self: start;
+}
+
+.corner:nth-child(1),
+.corner:nth-child(3) {
+  justify-self: start;
+}
